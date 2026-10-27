@@ -1,0 +1,12 @@
+Microsoft.Maui.Controls.Xaml.XamlParseException: Position 11:10. Type CustomerViewModel not found in xmlns clr-namespace:TemperatureConverter.ViewModels
+   at Microsoft.Maui.Controls.Xaml.CreateValuesVisitor.Visit(ElementNode node, INode parentNode)
+   at Microsoft.Maui.Controls.Xaml.ElementNode.Accept(IXamlNodeVisitor visitor, INode parentNode)
+   at Microsoft.Maui.Controls.Xaml.RootNode.Accept(IXamlNodeVisitor visitor, INode parentNode)
+   at Microsoft.Maui.Controls.Xaml.XamlLoader.Visit(RootNode rootnode, HydrationContext visitorContext, Boolean useDesignProperties)
+   at Microsoft.Maui.Controls.Xaml.XamlLoader.Load(Object view, String xaml, Assembly rootAssembly, Boolean useDesignProperties)
+   at Microsoft.Maui.Controls.Xaml.XamlLoader.Load(Object view, String xaml, Boolean useDesignProperties)
+   at Microsoft.Maui.Controls.Xaml.XamlLoader.Load(Object view, Type callingType)
+   at Microsoft.Maui.Controls.Xaml.Extensions.LoadFromXaml[TXaml](TXaml view, Type callingType)
+   at TemperatureConverter.MainPage.InitializeComponent() in C:\WU\App_C#\TemperatureConverter\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Maui.Controls.SourceGen\Microsoft.Maui.Controls.SourceGen.XamlGenerator\MainPage.xaml.sg.cs:line 26
+   at TemperatureConverter.MainPage..ctor() in C:\WU\App_C#\TemperatureConverter\MainPage.xaml.cs:line 7
+   at TemperatureConverter.App.CreateWindow(IActivationState activationState) in C:\WU\App_C#\TemperatureConverter\App.xaml.cs:line 24
